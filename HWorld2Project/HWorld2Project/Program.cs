@@ -13,6 +13,7 @@ namespace HWorld2Project
             Console.WriteLine("Hello world!");
             Console.WriteLine("After creating rep!");
             Console.WriteLine("After copying to rep!");
+            Console.WriteLine("In Release 1.0 branch");
 
         }
     }
