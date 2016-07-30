@@ -10,10 +10,11 @@ namespace HWorld2Project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
-            Console.WriteLine("After creating rep!");
-            Console.WriteLine("After copying to rep!");
+            Console.WriteLine("Hello world! Enter ypur name: " );
+            var key = Console.ReadLine();
+            Console.WriteLine("You entered " + key);
 
+            Console.Read();
         }
     }
 }
