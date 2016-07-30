@@ -6,7 +6,7 @@ $outputDir = "C:\MyWork\Self\VSProject\HWorld2\H-World-Project-Rep\HWorld2Projec
 
 Write-Host "Publish build to $outputDir" 
 
-$BuildSucceeded = Invoke-MSBuild -Path "C:\MyWork\Self\VSProject\HWorld2\H-World-Project-Rep\HWorld2Project\HWorld2Project.sln" -MsBuildParameters "/t:rebuild /p:outdir=C:\MyWork\Self\VSProject\HWorld2\H-World-Project-Rep\HWorld2Project\BuildExec\" -BuildLogDirectoryPath "C:\MyWork\Self\VSProject\HWorld2\H-World-Project-Rep\HWorld2Project\BuildExec" -KeepBuildLogOnSuccessfulBuilds
+$BuildSucceeded = Invoke-MSBuild -Path "C:\MyWork\Self\VSProject\HWorld2\H-World-Project-Rep\HWorld2Project\HWorld2Project.sln" -MsBuildParameters "/t:rebuild /p:outdir=C:\MyWork\Self\VSProject\HWorld2\H-World-Project-Rep\HWorld2Project\BuildExec\BuildPublish\" -BuildLogDirectoryPath "C:\MyWork\Self\VSProject\HWorld2\H-World-Project-Rep\HWorld2Project\BuildExec\BuildLog" -KeepBuildLogOnSuccessfulBuilds
 
 if($BuildSucceeded.BuildSucceeded -eq $true)
 {
