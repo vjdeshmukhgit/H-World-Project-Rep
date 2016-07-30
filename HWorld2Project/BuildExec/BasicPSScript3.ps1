@@ -10,7 +10,7 @@ $BuildSucceeded = Invoke-MSBuild -Path "C:\MyWork\Self\VSProject\HWorld2\H-World
 
 if($BuildSucceeded.BuildSucceeded -eq $true)
 {
-    Write-Output "Build process success:"
+    Write-Output "Build process success:1"
     
  }
 else
