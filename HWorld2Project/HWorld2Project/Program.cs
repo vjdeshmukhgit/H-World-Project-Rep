@@ -10,7 +10,7 @@ namespace HWorld2Project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world! Enter your First name: " );
+            Console.WriteLine("Hello world! Enter your First and last name: " );
             var key = Console.ReadLine();
             Console.WriteLine("You entered " + key);
 
